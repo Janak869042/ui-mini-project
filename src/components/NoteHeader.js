@@ -1,9 +1,8 @@
 import React from "react";
 import "./NoteHeader.css";
 const NoteHeader = () => {
-  return <div class="main">
-    <div class="main__head">NoteMaker</div>
-    <h5>Have Fun!!</h5>
+  return <div className="main">
+    <div className="main__head">NoteMaker</div>
   </div>;
 };
 export default NoteHeader;
