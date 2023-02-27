@@ -2,9 +2,10 @@
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
     text-align: left;
     background-color: bisque;
+    border-bottom: 3px solid gray;
   }
   
   .new-expense__control label {
