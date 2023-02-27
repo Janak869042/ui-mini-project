@@ -1,0 +1,10 @@
+.main {
+    background-color: aqua;
+    border-bottom: 3px solid gray;
+    padding: 20px 10px;
+  }
+  .main__head {
+    font-size: larger;
+    font-weight: 1000;
+  }
+  
