@@ -16,7 +16,7 @@ const FormFace = (props) => {
                 className="modal-title fs-5 text-align-center"
                 id="exampleModalLabel"
               >
-                EDIT YOUR NOTE
+                EDIT NOTE
               </h1>
               <button
                 type="button"
@@ -58,7 +58,7 @@ const FormFace = (props) => {
                 data-bs-dismiss="modal"
                 onClick={props.updateHandler}
               >
-                Update Note
+                Update Now
               </button>
             </div>
           </div>
