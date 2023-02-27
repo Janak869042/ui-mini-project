@@ -1,0 +1,16 @@
+.update-main {
+  text-align: center;
+  margin-top: 5px 100px 10px 5px;
+}
+
+.update-mains {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 1px solid blue;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.update-mains h3 {
+  background-color: aqua;
+  border-bottom: 1px solid black;
+}
