@@ -24,7 +24,7 @@ const Note = (props) => {
         ))
       ) : (
         <div>
-          <h4>Note will show here.....</h4>
+          <h5>Note will show here.....</h5>
         </div>
       )}
     </ul>
