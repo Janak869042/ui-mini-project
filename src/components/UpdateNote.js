@@ -9,11 +9,17 @@ const UpdateNote = (props) => {
     }
 
   return (
-    <div className="update-delete">
+    <div className="update-mains">
+    <div className="update-main">
       <h2>{props.title}</h2>
       <p>{props.content}</p>
+      </div>
       <button onClick={onClickDeletesHandler}>Delete</button>
-      <button data-bs-toggle="modal" data-bs-target="#exampleModal" onClick={onClickUpdatesHandler}>Update</button>
+      <button 
+      data-bs-toggle="modal" 
+      data-bs-target="#exampleModal" 
+      onClick={onClickUpdatesHandler}>
+      Update</button>
     </div>
   );
 };
