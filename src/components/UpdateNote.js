@@ -11,7 +11,7 @@ const UpdateNote = (props) => {
   return (
     <div className="update-mains">
     <div className="update-main">
-      <h2>{props.title}</h2>
+      <h3>{props.title}</h3>
       <p>{props.content}</p>
       </div>
       <button onClick={onClickDeletesHandler}>Delete</button>
