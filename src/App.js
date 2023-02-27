@@ -22,17 +22,25 @@ const App = () => {
 //store data for local
   localStorage.setItem("notes", JSON.stringify(notes));
   return (
-    <div>
+    <div className="App-main">
       <NoteHeader />
       <Interface
-        noteId={noteId} setNoteId={setNoteId}
-        notes={notes} setNotes={setNotes}
-      />
-      <NoteForm
-        title={title} setTitle={setTitle} content={content} setContent={setContent}
+        noteId={noteId} 
+        setNoteId={setNoteId}
+        notes={notes} 
         setNotes={setNotes}
       />
-      <Note notes={notes} setNotes={setNotes} setNoteId={setNoteId} />
+      <NoteForm
+        title={title} 
+        setTitle={setTitle} 
+        content={content} 
+        setContent={setContent}
+        setNotes={setNotes}
+      />
+      <Note notes={notes} 
+      setNotes={setNotes} 
+      setNoteId={setNoteId} />
+      <h6>&copy; nextuple,Bangalore</h6>
     </div>
   );
 };
